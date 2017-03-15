@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="#424242">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#424242"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/Recordbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:background="#e0e0e0"
+            android:gravity="center"
+            android:text="START"
+            android:textColor="#6a1b9a"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/songName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:singleLine="true"
+            android:text="Start"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+
+            />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/row1linearLayout">
+
+        <ImageView
+            android:id="@+id/cymbalsimageView10"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:background="@null"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/cymbals"/>
+
+        <ImageView
+            android:id="@+id/drumimageView10"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/drum"/>
+
+        <ImageView
+            android:id="@+id/drumBassimageView10"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/bassdrum"/>
+
+        <ImageView
+            android:id="@+id/maracasimageView10"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/maracas"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/row1linearLayout"
+        android:id="@+id/row2linearLayout">
+
+        <ImageView
+            android:id="@+id/guitarimageView10"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/guitar"/>
+
+        <ImageView
+            android:id="@+id/BguitarimageView10"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/bassguitar"/>
+
+        <ImageView
+            android:id="@+id/castanetsimageView10"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/castanets"/>
+
+        <ImageView
+            android:id="@+id/triangleimageView10"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/triangle"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/row3linearLayout">
+
+        <Button
+            android:id="@+id/LowDobutton2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#e57373"
+            android:text="do"
+            android:gravity="center"
+            android:textColor="#212121"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Rebutton2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:text="re"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:background="#ffa726"
+
+            android:textColor="#212121"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/Mibutton2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:text="Mi"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="#ffee58"
+            android:textColor="#212121"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/Fabutton2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:text="fa"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="#9ccc65"
+            android:textColor="#212121"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/row4linearLayout"
+        android:layout_below="@+id/row3linearLayout"
+        >
+
+        <Button
+            android:id="@+id/Solbutton2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="sol"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="#388e3c"
+            android:textColor="#212121"/>
+
+        <Button
+            android:id="@+id/Labutton2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="la"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="#29b6f6"
+            android:textColor="#212121"/>
+
+        <Button
+            android:id="@+id/Tibutton2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="ti"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="#1976d2"
+            android:textColor="#212121"/>
+
+        <Button
+            android:id="@+id/HighDobutton2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="do"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:background="#ec407a"
+            android:textColor="#212121"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fafafa"/>
+
+
+</LinearLayout>
+</ScrollView>

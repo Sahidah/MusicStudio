@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242">
+
+    <TextView
+        android:id="@+id/MusictextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:text="MUSIC STUDIO"
+        android:textColor="#d1c4e1"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/musicstudioicon" />
+
+</LinearLayout>
